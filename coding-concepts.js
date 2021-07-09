@@ -8,9 +8,9 @@
 // --------------------1) What will this log?
 
 var cohort = "Charlie 2021"
-// console.log(cohort.length)
+console.log(cohort.length)
 
-// a) Your answer:
+// a) Your answer: 11
 // b) Verify and explain:
 
 
