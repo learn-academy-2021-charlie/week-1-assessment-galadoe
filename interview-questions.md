@@ -33,7 +33,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: built-in method are method that are come with that particular language, for example JavaScript.
 
-  Researched answer:
+  Researched answer: A function which is already defined in a program or programming framework with a set of statements, which together performs a task
 
 
 
@@ -41,7 +41,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: Proper pair programming techniques allow each person to have a chance of learning and working together. The person that's currently programming is the driver and the other person is called the navigator. They help to assist the driver, but they aren't the ones in charge.
 
-  Researched answer:
+  Researched answer: The Driver is the person at the wheel, i.e. the keyboard. they are focussed on completing the tiny goal at hand, ignoring larger issues for the moment. A driver should always talk through what they are doing while doing it. The Navigator is in the observer position, while the driver is typing. They review the code on-the-go, gives directions and shares thoughts. The navigator also has an eye on the larger issues, bugs, and makes notes of potential next steps or obstacles.
 
 
 
@@ -55,12 +55,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-1. Iteration:
+1. Iteration: the process wherein a set of instructions or structures are repeated in a sequence a specified number of times until a condition is met
 
-2. Higher Order Functions:
+2. Higher Order Functions: a function that accepts functions as parameters and/or returns a function
 
-3. Jest:
+3. Jest: a JavaScript testing framework designed to ensure correctness of any JavaScript codebase
 
-4. Classes:
+4. Classes: a blueprint for creating objects, providing initial values for state, and implementations of behaviors
 
-5. React:
+5. React: a free and open-source front-end JavaScript library for building user interfaces or Iu components
