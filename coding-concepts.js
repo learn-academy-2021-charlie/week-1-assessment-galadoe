@@ -36,11 +36,11 @@ console.log(languages[index])
 // --------------------4) What will this log?
 
 var weekendDays = ["saturday", "sunday"]
-// console.log(weekendDays.toUpperCase())
+console.log(weekendDays.toUpperCase())
 
 // a) Your answer: ['SATURDAY', 'SUNDAY']
 // b) Verify and explain: module._compile error
-
+//REVIEW THIS PROBLEM!
 
 // --------------------5) What will this log?
 
@@ -48,4 +48,5 @@ var dataTypes = ["number", "string", "Boolean"]
 console.log(typeof dataTypes.length)
 
 // a) Your answer: 21
-// b) Verify and explain: number; this question throw me off. It was asking for the type of data in dataTypes array, but it also asked for the length. Not sure why the answer is number 
+// b) Verify and explain: number; this question throw me off. It was asking for the type of data in dataTypes array, but it also asked for the length. Not sure why the answer is number
+//REVIEW AND ASK QUESTION!

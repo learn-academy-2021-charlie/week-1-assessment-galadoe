@@ -28,6 +28,7 @@ const boilingPoint = (degree) => {
 console.log(boilingPoint(temp1))
 console.log(boilingPoint(temp2));
 console.log(boilingPoint(temp3));
+console.log(boilingPoint(420));
 
 
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
@@ -37,12 +38,10 @@ var myNumbers1 = [3, 7, 0, 36, -9]
 var myNumbers2 = [8, -7, 22, 9, 13]
 
 const sortedNumbers = () => {
-  return myNumbers1.concat(myNumbers2)
+  return myNumbers2.join("")
 }
 console.log(sortedNumbers());
-
-//come back to this later to sort it out
-
+//CONTINUE TRYING THIS PROBLEM! *getting annoying
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
 // Use the test variables provided below. Expected output: "ovarb", "eilrahc"
@@ -106,5 +105,5 @@ const subtraction1 = (num3, num4) => {
     return `Your input is not a number`
   }
 }
-//Comeback to this question and try to use typeof
 console.log(subtraction1(numberExampleRefactor1, numberExampleRefactor2));
+//If possible try using typeof (code still works fine without)
