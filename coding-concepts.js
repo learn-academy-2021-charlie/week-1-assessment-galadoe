@@ -50,3 +50,4 @@ console.log(typeof dataTypes.length)
 // a) Your answer: 21
 // b) Verify and explain: number; this question throw me off. It was asking for the type of data in dataTypes array, but it also asked for the length. Not sure why the answer is number
 //REVIEW AND ASK QUESTION!
+//Sarah said: dataType.length would just return whatever the number is for that character, but when you add the typeof operator, you get back the name of the data type

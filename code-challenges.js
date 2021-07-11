@@ -38,9 +38,11 @@ var myNumbers1 = [3, 7, 0, 36, -9]
 var myNumbers2 = [8, -7, 22, 9, 13]
 
 const sortedNumbers = () => {
-  return myNumbers2.join("")
+
+  return myNumbers1.concat(myNumbers2).sort((a,b) => a - b)
 }
 console.log(sortedNumbers());
+
 //CONTINUE TRYING THIS PROBLEM! *getting annoying
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
