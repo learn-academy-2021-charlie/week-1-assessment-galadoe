@@ -14,6 +14,21 @@ var temp1 = 35
 var temp2 = 350
 var temp3 = 212
 
+const boilingPoint = (degree) => {
+  if(degree >= 35 && degree < 350){
+    return (`${degree} is below boiling point`)
+  }else if(degree >= 350){
+    return (`${degree} is above boiling point`)
+  }else if(degree === 212){
+    return (`${degree} is at boiling point`)
+  }else{
+    return "Not a valid degree"
+  }
+}
+console.log(boilingPoint(temp1))
+console.log(boilingPoint(temp2));
+console.log(boilingPoint(temp3));
+console.log(boilingPoint(420));
 
 
 // --------------------2) Create a function that takes in two arrays of numbers and returns a single array with all the values sorted least to greatest.
@@ -22,13 +37,32 @@ var temp3 = 212
 var myNumbers1 = [3, 7, 0, 36, -9]
 var myNumbers2 = [8, -7, 22, 9, 13]
 
+const sortedNumbers = () => {
 
+  return myNumbers1.concat(myNumbers2).sort((a,b) => a - b)
+}
+console.log(sortedNumbers());
+
+//CONTINUE TRYING THIS PROBLEM! *getting annoying
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
 // Use the test variables provided below. Expected output: "ovarb", "eilrahc"
 
 var myString1 = "bravo"
 var myString2 = "charlie"
+
+const lettersReversed = (letter) => {
+  if(letter === "bravo"){
+    return myString1.split("").reverse().join("")
+  }else if(letter === "charlie"){
+    return myString2.split("").reverse().join("")
+  }else{
+    return "not valid"
+  }
+}
+console.log(lettersReversed(myString1));
+console.log(lettersReversed(myString2));
+
 
 
 
@@ -41,6 +75,17 @@ var numberExample2 = 27
 var numberExample3 = 7
 var numberExample4 = 19
 
+const subtraction = (num1, num2) => {
+  if(num1 > num2){
+    return num1 - num2
+  }else if(num2 > num1){
+    return num2 - num1
+  }else{
+    return "not valid"
+  }
+}
+console.log(subtraction(numberExample1, numberExample2));
+console.log(subtraction(numberExample3, numberExample4));
 
 
 // --------------------5) Copy/paste your code from #4. Refactor your code to also accept non-number edge cases. Inform your user if the variable passed into the subtraction function is not a number.
@@ -52,3 +97,15 @@ var numberExampleRefactor2 = "hello"
 
 var numberExampleRefactor3 = 27
 var numberExampleRefactor4 = 24
+
+const subtraction1 = (num3, num4) => {
+  if(num3 > num4){
+    return num1 - num2
+  }else if(num4 > num3){
+    return num2 - num1
+  }else{
+    return `Your input is not a number`
+  }
+}
+console.log(subtraction1(numberExampleRefactor1, numberExampleRefactor2));
+//If possible try using typeof (code still works fine without)
